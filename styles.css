@@ -1,0 +1,34 @@
+.about {
+    background-color: lightgreen;
+    color: red;
+}
+.skills {
+    top: 50px;
+    color: purple;
+}
+
+@keyframes spinny {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+}
+
+@keyframes shifty {
+    0% {color: red;}
+    25% {color: yellow;}
+    50% {color: green;}
+    75% {color: blue;}
+    100% {color: red;}
+}
+
+.projects {
+    top: 150px; 
+    animation-name: spinny;
+    animation-duration: 1s;
+}
+
+.contact {
+    top: 250px;
+    animation-name: shifty;
+    animation-duration: 4s;
+}
