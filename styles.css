@@ -6,12 +6,14 @@ body {
 .about {
     background-color: lightgreen;
     color: red;
+    width: 400px;
 }
 
 .skills {
     top: 50px;
     color: purple;
     background-color: lightpink;
+    width: 400px;
 }
 
 @keyframes spinny {
@@ -41,4 +43,5 @@ body {
     animation-duration: 4s;
     animation-iteration-count: infinite;
     background-color: white;
+    width: 400px;
 }
