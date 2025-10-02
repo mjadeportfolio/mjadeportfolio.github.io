@@ -22,7 +22,6 @@
 }
 
 .projects {
-    top: 150px; 
     animation-name: spinny;
     animation-duration: 1s;
     animation-iteration-count: infinite;
