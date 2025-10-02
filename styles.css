@@ -25,10 +25,12 @@
     top: 150px; 
     animation-name: spinny;
     animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 .contact {
     top: 250px;
     animation-name: shifty;
     animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
