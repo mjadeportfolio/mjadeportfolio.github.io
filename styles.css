@@ -11,6 +11,7 @@ body {
 .skills {
     top: 50px;
     color: purple;
+    background-color: lightpink;
 }
 
 @keyframes spinny {
@@ -39,4 +40,5 @@ body {
     animation-name: shifty;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    background-color: white;
 }
