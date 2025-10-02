@@ -29,7 +29,6 @@
 }
 
 .contact {
-    top: 250px;
     animation-name: shifty;
     animation-duration: 4s;
     animation-iteration-count: infinite;
