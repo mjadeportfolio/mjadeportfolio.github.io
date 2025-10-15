@@ -47,7 +47,8 @@ body {
 }
 
 .problem {
-    align-content: center;
+    margin: 0 auto;
+    background-color: '#69c0ff';
     width: 400px;
     height: 600px;
 }
