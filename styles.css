@@ -45,3 +45,9 @@ body {
     background-color: white;
     width: 400px;
 }
+
+.problem {
+    align-content: center;
+    width: 400px;
+    height: 600px;
+}
