@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Madison Jade Byrd — Resume</title>
+  <style>
+    :root{
+      --accent:#0b63c6;
+      --muted:#6b7280;
+      --bg:#f8fafc;
+      --card:#ffffff;
+      --maxw:900px;
+      --pad:20px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color:#0f172a;
+    }
+    html,body{height:100%;margin:0;background:var(--bg);}
+    .container{
+      max-width:var(--maxw);
+      margin:32px auto;
+      padding:var(--pad);
+    }
+    .card{
+      background:var(--card);
+      border-radius:12px;
+      box-shadow:0 6px 18px rgba(15,23,42,0.06);
+      padding:28px;
+    }
+    header{
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+      align-items:center;
+      justify-content:space-between;
+      border-bottom:1px solid #eef2f6;
+      padding-bottom:16px;
+      margin-bottom:18px;
+    }
+    .name{
+      font-size:1.6rem;
+      font-weight:700;
+      letter-spacing: -0.01em;
+    }
+    .contact{
+      text-align:right;
+      color:var(--muted);
+      font-size:0.95rem;
+    }
+    .contact a{ color:inherit; text-decoration:none; }
+    .summary{
+      margin:16px 0 24px;
+      line-height:1.45;
+      color:#111827;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr;
+      gap:20px;
+    }
+    @media(min-width:820px){
+      .grid{ grid-template-columns: 1fr 320px; gap:28px; }
+    }
+    section{ }
+    h2{
+      font-size:1.02rem;
+      margin:0 0 10px 0;
+      color:var(--accent);
+      font-weight:700;
+    }
+    .item{
+      margin-bottom:12px;
+    }
+    .role{
+      font-weight:600;
+    }
+    .meta{
+      color:var(--muted);
+      font-size:0.92rem;
+      margin-bottom:6px;
+    }
+    ul{ margin:8px 0 0 18px; padding:0; color:#0f172a; }
+    .skills{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      margin-top:8px;
+    }
+    .skill{
+      font-size:0.86rem;
+      background:#f1f5f9;
+      padding:6px 8px;
+      border-radius:8px;
+      color:#0f172a;
+    }
+    footer{ margin-top:20px; color:var(--muted); font-size:0.9rem; text-align:center; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card" role="document" aria-labelledby="name-heading">
+      <header>
+        <div>
+          <div id="name-heading" class="name">Madison Jade Byrd</div>
+          <div class="meta" style="margin-top:6px;">Computer science undergraduate (B.S. 2026) &amp; teaching assistant — seeking employment in New Mexico</div>
+        </div>
+        <div class="contact" aria-label="Contact information">
+          <div><a href="mailto:mjadebyrd@gmail.com">mjadebyrd@gmail.com</a></div>
+          <div>📞 (803)-629-2639</div>
+          <div style="margin-top:6px;">Relocating to Alamogordo, NM (Summer 2026)</div>
+        </div>
+      </header>
+
+      <p class="summary">
+        Computer science undergraduate (B.S. expected May 2026) with years of hands-on experience in programming and Linux systems.
+        Passionate about building and maintaining computer systems and solving technical challenges. Experienced as a lab monitor
+        and in self-initiated server and systems administration projects.
+      </p>
+
+      <div class="grid">
+        <main>
+          <section aria-labelledby="work-heading">
+            <h2 id="work-heading">Work Experience</h2>
+
+            <div class="item" aria-labelledby="lab-role">
+              <div id="lab-role" class="role">University of South Carolina — CSCE 102 Lab Monitor</div>
+              <div class="meta">Aug 2025 - Present</div>
+              <ul>
+                <li>Provides one-on-one guidance to students in CSCE 102: General Applications Programming, helping to write and debug HTML and CSS projects.</li>
+                <li>Collaborated with students and faculty to clarify goals and overcome technical hurdles.</li>
+                <li>Translated complex technical concepts into clear explanations, helping students build functional web pages.</li>
+              </ul>
+            </div>
+          </section>
+
+          <section aria-labelledby="self-heading" style="margin-top:18px;">
+            <h2 id="self-heading">Self-Initiated Experience</h2>
+
+            <div class="item">
+              <div class="role">Server Management — Setup and Maintenance</div>
+              <div class="meta">Feb 2022 - Present</div>
+              <ul>
+                <li>Built and maintained a home Linux environment hosting AI models, network-attached RAID storage, and multiplayer game servers behind an Oracle reverse proxy, servicing users worldwide.</li>
+              </ul>
+            </div>
+
+            <div class="item">
+              <div class="role">Linux Systems Administration</div>
+              <div class="meta">Jun 2017 - Present</div>
+              <ul>
+                <li>Daily use and maintenance of UNIX/Linux systems for 8+ years, including Debian and Red Hat-based distributions.</li>
+              </ul>
+            </div>
+
+            <div class="item">
+              <div class="role">Programming Projects</div>
+              <div class="meta">Aug 2019 - Present</div>
+              <ul>
+                <li>Developed a low-level kernel for x86 machines with PS/2 keyboard input, bitmap fonts, and 64-bit long mode support.</li>
+              </ul>
+            </div>
+
+            <div class="item">
+              <div class="role">Personal Computer Hardware</div>
+              <div class="meta">Jun 2017 - Present</div>
+              <ul>
+                <li>Assembled and upgraded 5+ personal computers; diagnosed and fixed hardware/software issues for self and others.</li>
+              </ul>
+            </div>
+          </section>
+
+          <section aria-labelledby="classroom-heading" style="margin-top:18px;">
+            <h2 id="classroom-heading">Relevant Classroom Experience</h2>
+
+            <div class="item">
+              <div class="role">CSCE 240 — Advanced Programming Techniques (Molinaroli College of Engineering and Computing)</div>
+              <ul>
+                <li>Programming applications using pointers, memory management, and advanced OOP structures.</li>
+              </ul>
+            </div>
+
+            <div class="item">
+              <div class="role">ECE 240 — Introduction to Software Engineering (Midlands Technical College)</div>
+              <ul>
+                <li>Fundamentals of software design and development, implementation strategies, object-oriented design techniques, and ethics.</li>
+              </ul>
+            </div>
+          </section>
+        </main>
+
+        <aside>
+          <section aria-labelledby="education-heading">
+            <h2 id="education-heading">Education</h2>
+
+            <div class="item">
+              <div class="role">University of South Carolina — Bachelor of Science in Computer Science</div>
+              <div class="meta">Currently attending — Graduating May 2026</div>
+            </div>
+
+            <div class="item">
+              <div class="role">Midlands Technical College — Associate in Applied Science, General Technology in Computer Science</div>
+              <div class="meta">Graduated Dec 2024 — GPA: 3.48</div>
+            </div>
+          </section>
+
+          <section aria-labelledby="skills-heading" style="margin-top:18px;">
+            <h2 id="skills-heading">Skills</h2>
+
+            <div>
+              <strong>Programming Languages</strong>
+              <div class="skills" role="list">
+                <span class="skill" role="listitem">Java</span>
+                <span class="skill" role="listitem">C++</span>
+                <span class="skill" role="listitem">C</span>
+                <span class="skill" role="listitem">Shell Scripting</span>
+              </div>
+            </div>
+
+            <div style="margin-top:10px;">
+              <strong>Operating Systems</strong>
+              <div class="skills">
+                <span class="skill">Windows</span>
+                <span class="skill">Linux (Debian &amp; Red Hat-based)</span>
+              </div>
+            </div>
+
+            <div style="margin-top:10px;">
+              <strong>Tools / Frameworks</strong>
+              <div class="skills">
+                <span class="skill">Git</span>
+                <span class="skill">GitHub</span>
+                <span class="skill">LaTeX</span>
+                <span class="skill">Docker</span>
+                <span class="skill">Microsoft Excel</span>
+              </div>
+            </div>
+          </section>
+        </aside>
+      </div>
+
+      <footer>
+        Resume converted from uploaded file. :contentReference[oaicite:1]{index=1}
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
