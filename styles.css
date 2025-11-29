@@ -88,3 +88,13 @@ a.resume:active {text-decoration: none; color: red;}
     height: 300px;
   pointer-events: none;
 }
+
+.awesome {
+    position: absolute;
+    background-color: #3d492b;
+    color:  #47193b;
+    top: 300px;
+    left: 1000px;
+    width: 400px;
+    height: 300px;
+}
