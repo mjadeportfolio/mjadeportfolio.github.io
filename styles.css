@@ -104,13 +104,13 @@ a.resume:active {text-decoration: none; color: red;}
     color: #4b1223;
     font-family: 'Comic Sans MS', 'Comic Neue', cursive;
     animation-name: vibrate;
-    animation-duration: 0.2s;
+    animation-duration: 0.010s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
 @keyframes vibrate {
-    0% {transform: transform: translateY(-5px); ;}
-    50% {transform: transform: translateY(5px); }
-    100% {transform: transform: translateY(-5px); }
+    0% {transform: translateY(-10px);}
+    50% {transform: translateY(10px);}
+    100% {transform: translateY(-10px);}
 }
