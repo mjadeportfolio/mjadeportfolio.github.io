@@ -61,3 +61,15 @@ padding: 20px 10px;
 background: white; /* pick a color */
 border-radius: 25%;
 }
+
+a.resume {
+    color: "red";
+    font-family: 'Comic Sans MS', 'Comic Neue', cursive;
+}
+
+.resume {
+    background-color: "yellow";
+    top: 300px;
+    left: 500px;
+    width: 400px;
+}
