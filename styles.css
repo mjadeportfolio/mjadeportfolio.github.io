@@ -86,4 +86,5 @@ a.resume:active {text-decoration: none; color: red;}
     left: 500px;
     width: 400px;
     height: 300px;
+  pointer-events: none;
 }
