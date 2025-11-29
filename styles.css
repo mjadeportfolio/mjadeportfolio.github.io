@@ -67,7 +67,7 @@ a.resume {
     font-family: 'Comic Sans MS', 'Comic Neue', cursive;
 }
 
-.resume {
+.resumecontainer {
     position: absolute;
     background-color: yellow;
     top: 300px;
