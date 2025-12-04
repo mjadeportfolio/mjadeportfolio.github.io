@@ -47,9 +47,26 @@ something to be proud of.</p></div>
 <a href="files/diagram.pdf"><h3>Affinity Diagram</h3></a>
 <a href="files/diagram.pdf"><img src="images/diagram.png"></a>
 <p>
-    <audio id="malo" src="files/cats_on_mars.mp3" preload="auto" loop></audio>
+    <audio id="bgm" src="files/cats_on_mars.mp3" preload="auto" loop></audio>
+    <button id="tap" style="display:none;">Tap to enable audio</button>
 Text describing the diagram
 </p>
 </section>
 </body>
+<script>
+const a = document.getElementById("bgm");
+const tap = document.getElementById("tap");
+
+// Try autoplay immediately
+a.play().catch(() => {
+  // Autoplay blocked → show fallback button
+  tap.style.display = "block";
+});
+
+// User taps → guaranteed to work
+tap.onclick = () => {
+  a.play();
+  tap.style.display = "none";
+};
+</script>
 </html>
