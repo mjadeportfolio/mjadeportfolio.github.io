@@ -102,10 +102,10 @@ a.resume:active {text-decoration: none; color: red;}
 
 .design {
     font-size: 54px;
-    color: #4b1223;
+    color: #32CD32;
     font-family: 'Comic Sans MS', 'Comic Neue', cursive;
     animation-name: vibrate;
-    animation-duration: 0.010s;
+    animation-duration: 0.005s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
