@@ -115,3 +115,11 @@ a.resume:active {text-decoration: none; color: red;}
     50% {transform: translateY(10px);}
     100% {transform: translateY(-10px);}
 }
+
+.play {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top: 200px;
+    left: 500px;
+}
