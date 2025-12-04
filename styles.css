@@ -92,7 +92,6 @@ a.resume:active {text-decoration: none; color: red;}
 
 .awesome {
     position: absolute;
-    background-color: #3d492b;
     color:  #47193b;
     animation-name: shifty;
     animation-duration: 4s;
